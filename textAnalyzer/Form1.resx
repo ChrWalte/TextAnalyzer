@@ -1,0 +1,1188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="mainTxt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="mainTxt.AccessibleName" xml:space="preserve">
+    <value>mainTxt</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mainTxt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="mainTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mainTxt.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mainTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 188</value>
+  </data>
+  <data name="mainTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mainTxt.Text" xml:space="preserve">
+    <value>Example Text</value>
+  </data>
+  <data name="&gt;&gt;mainTxt.Name" xml:space="preserve">
+    <value>mainTxt</value>
+  </data>
+  <data name="&gt;&gt;mainTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mainTxt.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <metadata name="lengthTxt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lengthTxt.AccessibleName" xml:space="preserve">
+    <value>lengthTxt</value>
+  </data>
+  <data name="lengthTxt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lengthTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 206</value>
+  </data>
+  <data name="lengthTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
+  </data>
+  <data name="lengthTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lengthTxt.Text" xml:space="preserve">
+    <value>Length: 12</value>
+  </data>
+  <data name="&gt;&gt;lengthTxt.Name" xml:space="preserve">
+    <value>lengthTxt</value>
+  </data>
+  <data name="&gt;&gt;lengthTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lengthTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lengthTxt.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <metadata name="MD5TxtOnly.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="MD5TxtOnly.AccessibleDescription" xml:space="preserve">
+    <value>MD5TxtOnly</value>
+  </data>
+  <data name="MD5TxtOnly.AccessibleName" xml:space="preserve">
+    <value>MD5TxtOnly</value>
+  </data>
+  <data name="MD5TxtOnly.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="MD5TxtOnly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 206</value>
+  </data>
+  <data name="MD5TxtOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="MD5TxtOnly.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MD5TxtOnly.Text" xml:space="preserve">
+    <value>MD5:</value>
+  </data>
+  <data name="&gt;&gt;MD5TxtOnly.Name" xml:space="preserve">
+    <value>MD5TxtOnly</value>
+  </data>
+  <data name="&gt;&gt;MD5TxtOnly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MD5TxtOnly.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MD5TxtOnly.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <metadata name="MD5Txt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="MD5Txt.AccessibleDescription" xml:space="preserve">
+    <value>MD5Txt</value>
+  </data>
+  <data name="MD5Txt.AccessibleName" xml:space="preserve">
+    <value>MD5Txt</value>
+  </data>
+  <data name="MD5Txt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="MD5Txt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 206</value>
+  </data>
+  <data name="MD5Txt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 20</value>
+  </data>
+  <data name="MD5Txt.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="MD5Txt.Text" xml:space="preserve">
+    <value>F9C9EC96C6E0A7B26B28647BCD2BED3F</value>
+  </data>
+  <data name="&gt;&gt;MD5Txt.Name" xml:space="preserve">
+    <value>MD5Txt</value>
+  </data>
+  <data name="&gt;&gt;MD5Txt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MD5Txt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MD5Txt.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <metadata name="SHA1Txt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SHA1Txt.AccessibleDescription" xml:space="preserve">
+    <value>SHA1Txt</value>
+  </data>
+  <data name="SHA1Txt.AccessibleName" xml:space="preserve">
+    <value>SHA1Txt</value>
+  </data>
+  <data name="SHA1Txt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SHA1Txt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 232</value>
+  </data>
+  <data name="SHA1Txt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 20</value>
+  </data>
+  <data name="SHA1Txt.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="SHA1Txt.Text" xml:space="preserve">
+    <value>125C36A7EBCAA4E9C3D3B759F3FACB21691D4F30</value>
+  </data>
+  <data name="&gt;&gt;SHA1Txt.Name" xml:space="preserve">
+    <value>SHA1Txt</value>
+  </data>
+  <data name="&gt;&gt;SHA1Txt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SHA1Txt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SHA1Txt.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <metadata name="SHA1TxtOnly.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SHA1TxtOnly.AccessibleDescription" xml:space="preserve">
+    <value>SHA1TxtOnly</value>
+  </data>
+  <data name="SHA1TxtOnly.AccessibleName" xml:space="preserve">
+    <value>SHA1TxtOnly</value>
+  </data>
+  <data name="SHA1TxtOnly.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SHA1TxtOnly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 232</value>
+  </data>
+  <data name="SHA1TxtOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="SHA1TxtOnly.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SHA1TxtOnly.Text" xml:space="preserve">
+    <value>SHA1:</value>
+  </data>
+  <data name="&gt;&gt;SHA1TxtOnly.Name" xml:space="preserve">
+    <value>SHA1TxtOnly</value>
+  </data>
+  <data name="&gt;&gt;SHA1TxtOnly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SHA1TxtOnly.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SHA1TxtOnly.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <metadata name="SHA256Txt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SHA256Txt.AccessibleDescription" xml:space="preserve">
+    <value>SHA256Txt</value>
+  </data>
+  <data name="SHA256Txt.AccessibleName" xml:space="preserve">
+    <value>SHA256Txt</value>
+  </data>
+  <data name="SHA256Txt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SHA256Txt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 258</value>
+  </data>
+  <data name="SHA256Txt.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SHA256Txt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 33</value>
+  </data>
+  <data name="SHA256Txt.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="SHA256Txt.Text" xml:space="preserve">
+    <value>8271FD5481678D67E656CD90C81B24D82513F2ADAA5600B4CF44CBF51DDED41B</value>
+  </data>
+  <data name="&gt;&gt;SHA256Txt.Name" xml:space="preserve">
+    <value>SHA256Txt</value>
+  </data>
+  <data name="&gt;&gt;SHA256Txt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SHA256Txt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SHA256Txt.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <metadata name="SHA256TxtOnly.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SHA256TxtOnly.AccessibleDescription" xml:space="preserve">
+    <value>SHA256TxtOnly</value>
+  </data>
+  <data name="SHA256TxtOnly.AccessibleName" xml:space="preserve">
+    <value>SHA256TxtOnly</value>
+  </data>
+  <data name="SHA256TxtOnly.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SHA256TxtOnly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 258</value>
+  </data>
+  <data name="SHA256TxtOnly.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SHA256TxtOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="SHA256TxtOnly.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="SHA256TxtOnly.Text" xml:space="preserve">
+    <value>SHA256:</value>
+  </data>
+  <data name="&gt;&gt;SHA256TxtOnly.Name" xml:space="preserve">
+    <value>SHA256TxtOnly</value>
+  </data>
+  <data name="&gt;&gt;SHA256TxtOnly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SHA256TxtOnly.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SHA256TxtOnly.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <metadata name="SHA384Txt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SHA384Txt.AccessibleDescription" xml:space="preserve">
+    <value>SHA384Txt</value>
+  </data>
+  <data name="SHA384Txt.AccessibleName" xml:space="preserve">
+    <value>SHA384Txt</value>
+  </data>
+  <data name="SHA384Txt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SHA384Txt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 297</value>
+  </data>
+  <data name="SHA384Txt.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SHA384Txt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 33</value>
+  </data>
+  <data name="SHA384Txt.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="SHA384Txt.Text" xml:space="preserve">
+    <value>56B1920D70381A6A088C4644FCFD3F4B3B03931AD9E583ECD687A55736120EF83986232B655C909F0B6D35213EA1F94F</value>
+  </data>
+  <data name="&gt;&gt;SHA384Txt.Name" xml:space="preserve">
+    <value>SHA384Txt</value>
+  </data>
+  <data name="&gt;&gt;SHA384Txt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SHA384Txt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SHA384Txt.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <metadata name="SHA384TxtOnly.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SHA384TxtOnly.AccessibleDescription" xml:space="preserve">
+    <value>SHA384TxtOnly</value>
+  </data>
+  <data name="SHA384TxtOnly.AccessibleName" xml:space="preserve">
+    <value>SHA384TxtOnly</value>
+  </data>
+  <data name="SHA384TxtOnly.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SHA384TxtOnly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 297</value>
+  </data>
+  <data name="SHA384TxtOnly.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SHA384TxtOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="SHA384TxtOnly.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="SHA384TxtOnly.Text" xml:space="preserve">
+    <value>SHA384:</value>
+  </data>
+  <data name="&gt;&gt;SHA384TxtOnly.Name" xml:space="preserve">
+    <value>SHA384TxtOnly</value>
+  </data>
+  <data name="&gt;&gt;SHA384TxtOnly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SHA384TxtOnly.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SHA384TxtOnly.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <metadata name="SHA512Txt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SHA512Txt.AccessibleDescription" xml:space="preserve">
+    <value>SHA512Txt</value>
+  </data>
+  <data name="SHA512Txt.AccessibleName" xml:space="preserve">
+    <value>SHA512Txt</value>
+  </data>
+  <data name="SHA512Txt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SHA512Txt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 336</value>
+  </data>
+  <data name="SHA512Txt.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SHA512Txt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 46</value>
+  </data>
+  <data name="SHA512Txt.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="SHA512Txt.Text" xml:space="preserve">
+    <value>0AD32BD7E01DD3534E2D5FD992C8FD97966C75BA5C3348DED1E7F0572622952E5E6183D038369BBB3A7A5BE662936F3195B0F63BBF15DB7CEC1D5516025BAAD6</value>
+  </data>
+  <data name="&gt;&gt;SHA512Txt.Name" xml:space="preserve">
+    <value>SHA512Txt</value>
+  </data>
+  <data name="&gt;&gt;SHA512Txt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SHA512Txt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SHA512Txt.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <metadata name="SHA512TxtOnly.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="SHA512TxtOnly.AccessibleDescription" xml:space="preserve">
+    <value>SHA512TxtOnly</value>
+  </data>
+  <data name="SHA512TxtOnly.AccessibleName" xml:space="preserve">
+    <value>SHA512TxtOnly</value>
+  </data>
+  <data name="SHA512TxtOnly.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SHA512TxtOnly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 336</value>
+  </data>
+  <data name="SHA512TxtOnly.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SHA512TxtOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 46</value>
+  </data>
+  <data name="SHA512TxtOnly.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="SHA512TxtOnly.Text" xml:space="preserve">
+    <value>SHA512:</value>
+  </data>
+  <data name="&gt;&gt;SHA512TxtOnly.Name" xml:space="preserve">
+    <value>SHA512TxtOnly</value>
+  </data>
+  <data name="&gt;&gt;SHA512TxtOnly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SHA512TxtOnly.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SHA512TxtOnly.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <metadata name="EncryptionTxtOnly.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="EncryptionTxtOnly.AccessibleDescription" xml:space="preserve">
+    <value>EncryptionTxtOnly</value>
+  </data>
+  <data name="EncryptionTxtOnly.AccessibleName" xml:space="preserve">
+    <value>EncryptionTxtOnly</value>
+  </data>
+  <data name="EncryptionTxtOnly.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="EncryptionTxtOnly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 345</value>
+  </data>
+  <data name="EncryptionTxtOnly.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EncryptionTxtOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 37</value>
+  </data>
+  <data name="EncryptionTxtOnly.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="EncryptionTxtOnly.Text" xml:space="preserve">
+    <value>Encryption Password:</value>
+  </data>
+  <data name="&gt;&gt;EncryptionTxtOnly.Name" xml:space="preserve">
+    <value>EncryptionTxtOnly</value>
+  </data>
+  <data name="&gt;&gt;EncryptionTxtOnly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EncryptionTxtOnly.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EncryptionTxtOnly.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="EncryptPassTxt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="EncryptPassTxt.AccessibleDescription" xml:space="preserve">
+    <value>EncryptPassTxt</value>
+  </data>
+  <data name="EncryptPassTxt.AccessibleName" xml:space="preserve">
+    <value>EncryptPassTxt</value>
+  </data>
+  <data name="EncryptPassTxt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="EncryptPassTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 345</value>
+  </data>
+  <data name="EncryptPassTxt.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EncryptPassTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 37</value>
+  </data>
+  <data name="EncryptPassTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="EncryptPassTxt.Text" xml:space="preserve">
+    <value>p@ssw0rd</value>
+  </data>
+  <data name="&gt;&gt;EncryptPassTxt.Name" xml:space="preserve">
+    <value>EncryptPassTxt</value>
+  </data>
+  <data name="&gt;&gt;EncryptPassTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EncryptPassTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EncryptPassTxt.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="EncryptTxt.AccessibleDescription" xml:space="preserve">
+    <value>EncryptTxt</value>
+  </data>
+  <data name="EncryptTxt.AccessibleName" xml:space="preserve">
+    <value>EncryptTxt</value>
+  </data>
+  <data name="EncryptTxt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="EncryptTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 388</value>
+  </data>
+  <data name="EncryptTxt.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EncryptTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 188</value>
+  </data>
+  <data name="EncryptTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="EncryptTxt.Text" xml:space="preserve">
+    <value>�~\��eS����E�h�d</value>
+  </data>
+  <data name="&gt;&gt;EncryptTxt.Name" xml:space="preserve">
+    <value>EncryptTxt</value>
+  </data>
+  <data name="&gt;&gt;EncryptTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EncryptTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EncryptTxt.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="toUpperBut.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="toUpperBut.AccessibleDescription" xml:space="preserve">
+    <value>toUpperBut</value>
+  </data>
+  <data name="toUpperBut.AccessibleName" xml:space="preserve">
+    <value>toUpperBut</value>
+  </data>
+  <data name="toUpperBut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="toUpperBut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 258</value>
+  </data>
+  <data name="toUpperBut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="toUpperBut.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="toUpperBut.Text" xml:space="preserve">
+    <value>To Upper Case</value>
+  </data>
+  <data name="&gt;&gt;toUpperBut.Name" xml:space="preserve">
+    <value>toUpperBut</value>
+  </data>
+  <data name="&gt;&gt;toUpperBut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toUpperBut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toUpperBut.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="toLowerBut.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="toLowerBut.AccessibleDescription" xml:space="preserve">
+    <value>toLowerBut</value>
+  </data>
+  <data name="toLowerBut.AccessibleName" xml:space="preserve">
+    <value>toLowerBut</value>
+  </data>
+  <data name="toLowerBut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toLowerBut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="toLowerBut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 258</value>
+  </data>
+  <data name="toLowerBut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="toLowerBut.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="toLowerBut.Text" xml:space="preserve">
+    <value>To Lower Case</value>
+  </data>
+  <data name="&gt;&gt;toLowerBut.Name" xml:space="preserve">
+    <value>toLowerBut</value>
+  </data>
+  <data name="&gt;&gt;toLowerBut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toLowerBut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toLowerBut.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="clearBut.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clearBut.AccessibleDescription" xml:space="preserve">
+    <value>clearBut</value>
+  </data>
+  <data name="clearBut.AccessibleName" xml:space="preserve">
+    <value>clearBut</value>
+  </data>
+  <data name="clearBut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="clearBut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="clearBut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 258</value>
+  </data>
+  <data name="clearBut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="clearBut.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="clearBut.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;clearBut.Name" xml:space="preserve">
+    <value>clearBut</value>
+  </data>
+  <data name="&gt;&gt;clearBut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearBut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;clearBut.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="leetBut.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="leetBut.AccessibleDescription" xml:space="preserve">
+    <value>leetBut</value>
+  </data>
+  <data name="leetBut.AccessibleName" xml:space="preserve">
+    <value>leetBut</value>
+  </data>
+  <data name="leetBut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="leetBut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="leetBut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 287</value>
+  </data>
+  <data name="leetBut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="leetBut.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="leetBut.Text" xml:space="preserve">
+    <value>L33T C0D3</value>
+  </data>
+  <data name="&gt;&gt;leetBut.Name" xml:space="preserve">
+    <value>leetBut</value>
+  </data>
+  <data name="&gt;&gt;leetBut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;leetBut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;leetBut.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="sentenceBut.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="sentenceBut.AccessibleDescription" xml:space="preserve">
+    <value>sentenceBut</value>
+  </data>
+  <data name="sentenceBut.AccessibleName" xml:space="preserve">
+    <value>sentenceBut</value>
+  </data>
+  <data name="sentenceBut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="sentenceBut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sentenceBut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 287</value>
+  </data>
+  <data name="sentenceBut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="sentenceBut.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="sentenceBut.Text" xml:space="preserve">
+    <value>Sentence</value>
+  </data>
+  <data name="&gt;&gt;sentenceBut.Name" xml:space="preserve">
+    <value>sentenceBut</value>
+  </data>
+  <data name="&gt;&gt;sentenceBut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sentenceBut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sentenceBut.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="resetBut.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="resetBut.AccessibleDescription" xml:space="preserve">
+    <value>resetBut</value>
+  </data>
+  <data name="resetBut.AccessibleName" xml:space="preserve">
+    <value>resetBut</value>
+  </data>
+  <data name="resetBut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="resetBut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resetBut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 287</value>
+  </data>
+  <data name="resetBut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="resetBut.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="resetBut.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;resetBut.Name" xml:space="preserve">
+    <value>resetBut</value>
+  </data>
+  <data name="&gt;&gt;resetBut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resetBut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resetBut.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="WordsTxt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="WordsTxt.AccessibleName" xml:space="preserve">
+    <value>WordsTxt</value>
+  </data>
+  <data name="WordsTxt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="WordsTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 206</value>
+  </data>
+  <data name="WordsTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
+  </data>
+  <data name="WordsTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="WordsTxt.Text" xml:space="preserve">
+    <value>Words: 2</value>
+  </data>
+  <data name="&gt;&gt;WordsTxt.Name" xml:space="preserve">
+    <value>WordsTxt</value>
+  </data>
+  <data name="&gt;&gt;WordsTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WordsTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WordsTxt.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="lengthNSTxt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lengthNSTxt.AccessibleName" xml:space="preserve">
+    <value>lengthNSTxt</value>
+  </data>
+  <data name="lengthNSTxt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lengthNSTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 232</value>
+  </data>
+  <data name="lengthNSTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
+  </data>
+  <data name="lengthNSTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lengthNSTxt.Text" xml:space="preserve">
+    <value>Length (No Spaces): 11</value>
+  </data>
+  <data name="&gt;&gt;lengthNSTxt.Name" xml:space="preserve">
+    <value>lengthNSTxt</value>
+  </data>
+  <data name="&gt;&gt;lengthNSTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lengthNSTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lengthNSTxt.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="backBut.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="backBut.AccessibleDescription" xml:space="preserve">
+    <value>backBut</value>
+  </data>
+  <data name="backBut.AccessibleName" xml:space="preserve">
+    <value>backBut</value>
+  </data>
+  <data name="backBut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="backBut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="backBut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 316</value>
+  </data>
+  <data name="backBut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="backBut.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="backBut.Text" xml:space="preserve">
+    <value>Backwards</value>
+  </data>
+  <data name="&gt;&gt;backBut.Name" xml:space="preserve">
+    <value>backBut</value>
+  </data>
+  <data name="&gt;&gt;backBut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backBut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;backBut.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="camelBut.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="camelBut.AccessibleDescription" xml:space="preserve">
+    <value>camelBut</value>
+  </data>
+  <data name="camelBut.AccessibleName" xml:space="preserve">
+    <value>camelBut</value>
+  </data>
+  <data name="camelBut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="camelBut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="camelBut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 316</value>
+  </data>
+  <data name="camelBut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="camelBut.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="camelBut.Text" xml:space="preserve">
+    <value>Camel Case</value>
+  </data>
+  <data name="&gt;&gt;camelBut.Name" xml:space="preserve">
+    <value>camelBut</value>
+  </data>
+  <data name="&gt;&gt;camelBut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;camelBut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;camelBut.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="saveBut.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="saveBut.AccessibleDescription" xml:space="preserve">
+    <value>saveBut</value>
+  </data>
+  <data name="saveBut.AccessibleName" xml:space="preserve">
+    <value>saveBut</value>
+  </data>
+  <data name="saveBut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="saveBut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="saveBut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 316</value>
+  </data>
+  <data name="saveBut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="saveBut.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="saveBut.Text" xml:space="preserve">
+    <value>Save All</value>
+  </data>
+  <data name="&gt;&gt;saveBut.Name" xml:space="preserve">
+    <value>saveBut</value>
+  </data>
+  <data name="&gt;&gt;saveBut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveBut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;saveBut.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="textBox4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="textBox4.AccessibleName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 232</value>
+  </data>
+  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
+  </data>
+  <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
+    <value>textBox4</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="test.AccessibleDescription" xml:space="preserve">
+    <value>test</value>
+  </data>
+  <data name="test.AccessibleName" xml:space="preserve">
+    <value>test</value>
+  </data>
+  <data name="test.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="test.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 466</value>
+  </data>
+  <data name="test.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="test.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 108</value>
+  </data>
+  <data name="test.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="test.Text" xml:space="preserve">
+    <value>�~\��eS����E�h�d</value>
+  </data>
+  <data name="&gt;&gt;test.Name" xml:space="preserve">
+    <value>test</value>
+  </data>
+  <data name="&gt;&gt;test.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;test.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;test.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AccessibleDescription" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="$this.AccessibleName" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 586</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Text Analyzer</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
